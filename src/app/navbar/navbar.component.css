@@ -1,17 +1,79 @@
 .navbar {
 
-    background-color: #FDD90B !important;  
-  
+    background-color:white  !important;  
+     
+    background-repeat: no-repeat;
+      background-size: cover;
+       
   }
 
-.NavbarLogo {
+.nav-container {
 
-    border-radius: 50%;
     
 }
 
+.navbar-brand {
+
+    color: #151217;
+    font-family: Comfortaa;
+    display: flex;
+    background-color: whitesmoke ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px ;
+    padding-bottom:5px ;
+     
+}
+
+.navbar-brand:hover {
+
+    
+    transition: 0.3s;
+    background-color: gainsboro;
+    color: #151217 ;
+
+}
+
+.brand-title {
+
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+     
+}
+
+.NavbarLogo {
+
+    border-radius: 25%;
+    
+}
+
+.navbar-link-div {
+
+    
+
+}
+
+.navbar-nav {
+
+            width: 400px;
+            justify-content: space-around ; 
+
+}
+
 .nav-link {
+    width: 150px;
+    color: #151217;
+    font-size: 15px;
+    font-family: Comfortaa;
+    background-color: whitesmoke ;
+     
+     
+}
 
-    font-size: 25px;
+.nav-link:hover {
 
+    background-color: gainsboro;
+    color: #151217 ;
+     
 }
