@@ -1,0 +1,9 @@
+ 
+<section class="listing card" style="width: 18rem;">
+    <img [src]="products.img" class="listing-photo card-img-top" alt="Image de {{products.name}}">
+    <div class="card-body">
+      <h5 class="listing-heading card-title">{{products.name}}</h5>
+      <p class="listing-product card-text">{{products.desc}}</p>
+      <a [routerLink]="['/details', products.id]" class="btn btn-primary">{{products.price}}</a>
+    </div>
+</section>

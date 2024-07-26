@@ -1,0 +1,31 @@
+
+.presentation-container {
+
+     
+    border-radius: 0;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 300px;
+}
+
+h2 { 
+    color:whitesmoke;
+    font-size: 50px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+
+
+}
+
+p {
+    color:whitesmoke;
+    font-size: 35px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 60px;
+}
