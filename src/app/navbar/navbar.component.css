@@ -1,27 +1,25 @@
 .navbar {
 
-    background-color:white  !important;  
+    background-color:whitesmoke  !important;  
      
     background-repeat: no-repeat;
       background-size: cover;
        
   }
 
-.nav-container {
-
-    
-}
+ 
 
 .navbar-brand {
 
-    color: #151217;
+    color: #DA001E;
     font-family: Comfortaa;
     display: flex;
-    background-color: whitesmoke ;
+     
     padding-left: 10px;
     padding-right: 10px;
     padding-top:5px ;
     padding-bottom:5px ;
+    font-weight:bolder;
      
 }
 
@@ -29,8 +27,8 @@
 
     
     transition: 0.3s;
-    background-color: gainsboro;
-    color: #151217 ;
+    font-weight:bolder;
+    color:  red ;
 
 }
 
@@ -48,32 +46,30 @@
     
 }
 
-.navbar-link-div {
-
-    
-
-}
+ 
 
 .navbar-nav {
 
-            width: 400px;
-            justify-content: space-around ; 
-
+            width: 300px;
+            
 }
 
 .nav-link {
-    width: 150px;
-    color: #151217;
-    font-size: 15px;
+    width: 130px;
+    color: #DA001E;
+    font-size: 18px;
     font-family: Comfortaa;
-    background-color: whitesmoke ;
-     
+    border-radius: 0%;
+    padding: 0;
+    font-weight:bolder;
+  
      
 }
 
 .nav-link:hover {
-
-    background-color: gainsboro;
-    color: #151217 ;
+     
+    background-color: whitesmoke;
+    color: red ;
+    font-weight:bolder;
      
 }

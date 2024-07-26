@@ -1,0 +1,35 @@
+<div class="catalog">
+
+    <div class="catalog-title">   
+
+            <h2>Découvrez nos produits</h2>
+
+    </div>
+
+    <div class="catalog-container container-fluid ">
+
+        
+
+        <section>
+          <div>
+             
+            <input type="text" placeholder="filter by name" #filter >
+            <button class="primary" type="button" (click)="filterResults(filter.value)"></button>
+          </div>
+              </section>
+              <section class="results  ">
+                <app-products *ngFor="let products of filteredProductsList" [products]="products"></app-products>
+              </section>
+
+
+
+        </div>
+
+
+        
+
+
+         
+</div>
+
+ 

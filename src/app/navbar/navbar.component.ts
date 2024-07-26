@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  @Input() title = 'yes' ;
+   
 }
