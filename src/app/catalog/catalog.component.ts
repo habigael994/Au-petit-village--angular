@@ -1,11 +1,12 @@
 import { Component , inject } from '@angular/core';
-import { SortProductPipe } from '../sort-product.pipe';
+import { SortProductByPricePipe } from '../sortProductByPrice.pipe';
 import { NgFor } from '@angular/common';
-import { FilterByNamePipe } from '../filter-by-name.pipe';
+import { NgIf } from '@angular/common';
 import { Products } from '../products' ;
 import { ProductsComponent } from '../products/products.component';
 import { ProductsService } from '../products.service';
-import { NgModule } from '@angular/core';
+import { SortProductByPrice2Pipe } from '../sort-product-by-price2.pipe';
+ 
  
  
  
@@ -13,13 +14,13 @@ import { NgModule } from '@angular/core';
 @Component({
   selector: 'app-catalog',
   standalone: true,
-  imports: [SortProductPipe,FilterByNamePipe,ProductsComponent,NgFor],
+  imports: [SortProductByPricePipe,ProductsComponent,NgFor,NgIf,SortProductByPrice2Pipe],
   templateUrl: './catalog.component.html',
   styleUrl: './catalog.component.css'
   
 })
 export class CatalogComponent {
-      
+      pricefilter: boolean = false ;
       productsList: Products[] = [];
       productsService: ProductsService = inject(ProductsService);
       filteredProductsList:Products [] = [];
@@ -34,8 +35,7 @@ export class CatalogComponent {
 
       }
 
-      filterResults(text: string) {
-
+     filterResults(text: string) { 
           if (!text) this.filteredProductsList = this.productsList;
 
           this.filteredProductsList = this.productsList.filter(

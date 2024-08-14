@@ -3,18 +3,21 @@
 .catalog {
 
  
-margin-top: 200px;
-width: 100%;
-background-color:#F9D0A3 ;
-padding-bottom: 50px;
+ 
+width: 90%;
+background-color:#151217 ;
+ 
+margin: auto;
  
 }
 
 .catalog-title {
 
-  background-color: #F9D0A3;
+  background-color: whitesmoke;
   padding-top:30px ;
-  padding-bottom:30px ;
+  padding-bottom:10px ;
+  width: 100%;
+  margin: auto;
 
 }
 
@@ -24,9 +27,83 @@ padding-bottom: 50px;
        
       background-color:whitesmoke ;
     margin: auto;
-    width: 1700px ;
-     
-    
+    padding-top: 1%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.section {
+
+  max-width: 100%;
+
+}
+
+.catalog-nav {
+
+  margin-bottom: 2%;
+   
+  background-color: whitesmoke;
+
+}
+
+.catalogSearchBar {
+
+  margin-left: 5%;
+  border: solid 1px var(--primary-color);
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 150%;
+  display: inline-block;
+  width: 80%;
+
+}
+
+.productlist {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:whitesmoke;
+   
+  margin: auto;
+   
+  
+  width: 90%;
+   
+
+}
+.product {
+  margin: auto;
+  margin-bottom: 2%;
+  
+   
+}
+
+.filterButton {
+  
+  font-size: 80%;
+  background-color:  #FDD90B;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+.filterButton:hover {
+
+  color:#DA001E ;
+
+}
+
+.sortButton {
+  
+  font-size: 80%;
+  background-color: #FDD90B;
+  margin-bottom: 1%;
+
+}
+
+.sortButton:hover {
+
+ color: #DA001E;
 
 }
 
@@ -43,12 +120,13 @@ padding-bottom: 50px;
 }
 
 h2 {
-  color: #DA001E;
-  width: 50%;
-  margin: auto;
+  color: #151217 ;
+  width: 35%;
+  background-color: white;
   text-align: center;
-  background-color: whitesmoke;
+  margin: auto;
   padding: 20px;
+  font-size: 150%;
   
   
 }
@@ -59,43 +137,96 @@ h2 {
 
 }
 
-.results {
-  display: grid;
-  column-gap: 14px;
-  row-gap: 14px;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
-  margin-top: 50px;
-  justify-content: space-around;
-}
-
-input[type="text"] {
-  border: solid 1px var(--primary-color);
-  padding: 10px;
-  border-radius: 8px;
-  margin-right: 4px;
-  display: inline-block;
-  width: 30%;
-}
+ 
+ 
 
 button {
   padding: 10px;
   border: solid 1px var(--primary-color);
   background: var(--primary-color);
   color: black;
+  background-color: red;
   border-radius: 8px;
 }
 
-@media (min-width: 500px) and (max-width: 768px) {
-  .results {
-      grid-template-columns: repeat(2, 1fr);
+@media (min-width: 500px) and (max-width: 1600px) {
+  
+
+  .catalogSearchBar {
+
+    margin-left: 5%;
+    border: solid 1px var(--primary-color);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 150%;
+    display: inline-block;
+    width: 90%;
+  
   }
-  input[type="text"] {
-      width: 70%;
-  }   
+
+
+  .filterButton {
+  margin-top: 1%;
+    font-size: 80%;
+    background-color:  #FDD90B;
+    margin-left: 5%;
+
+
 }
 
+.sortButton {
+  margin-top: 1%;
+  font-size: 80%;
+   
+
+}
+
+ 
+
+}
+
+
+
 @media (max-width: 499px) {
-  .results {
-      grid-template-columns: 1fr;
-  }    
+ 
+  .catalog-title h2 {
+     
+    padding: 2px;
+    font-size: smaller;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    width: 90%;
+
+  }
+
+  .catalogSearchBar  {
+    width: 99%;
+     margin: auto;
+     font-size: smaller;
+  
+  }
+
+  .filterButton {
+    margin-top: 3%;
+    font-size: 40%;
+    margin-bottom: 3%;
+}
+
+.sortButton {
+  margin-top: 3%;
+  font-size: 40%;
+  margin-bottom: 3%;
+
+}
+
+.catalog-title {
+
+  background-color: whitesmoke;
+  padding-top:1% ;
+  padding-bottom:1% ;
+  width: 100%;
+  margin: auto;
+
+}
+
 }

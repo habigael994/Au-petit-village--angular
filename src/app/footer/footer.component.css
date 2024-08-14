@@ -1,0 +1,25 @@
+.footer { 
+
+        display: flex;
+        padding-top: ;
+        justify-content: space-around;
+        background-color:#151217 ;
+        height: 125px;
+
+}
+
+.logoDiv {
+
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+
+}
+
+.socialsLogo {
+    margin: auto;
+    height: 25px  ;
+    width: 25px;
+
+}

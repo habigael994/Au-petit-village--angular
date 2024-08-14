@@ -1,8 +1,8 @@
-import { SortProductPipe } from './sort-product.pipe';
+import { SortProductByPricePipe } from './sortProductByPrice.pipe';
 
 describe('SortProductPipe', () => {
   it('create an instance', () => {
-    const pipe = new SortProductPipe();
+    const pipe = new SortProductByPricePipe();
     expect(pipe).toBeTruthy();
   });
 });
