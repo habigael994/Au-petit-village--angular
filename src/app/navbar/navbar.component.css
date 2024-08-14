@@ -1,17 +1,18 @@
 .navbar {
-
-    background-color:whitesmoke  !important;  
-     
+ 
+    background-color:whitesmoke !important;  
+    position: fixed;
     background-repeat: no-repeat;
       background-size: cover;
-       
+    width: 100%;
+    z-index: 10;
   }
 
  
 
 .navbar-brand {
 
-    color: #DA001E;
+    color: #151217;
     font-family: Comfortaa;
     display: flex;
      
@@ -28,7 +29,7 @@
     
     transition: 0.3s;
     font-weight:bolder;
-    color:  red ;
+    color:  #DA001E ;
 
 }
 
@@ -56,7 +57,7 @@
 
 .nav-link {
     width: 130px;
-    color: #DA001E;
+    color: #151217;
     font-size: 18px;
     font-family: Comfortaa;
     border-radius: 0%;
@@ -69,7 +70,7 @@
 .nav-link:hover {
      
     background-color: whitesmoke;
-    color: red ;
+    color: #DA001E ;
     font-weight:bolder;
      
 }

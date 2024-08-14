@@ -13,17 +13,26 @@
         <section>
           <div>
              
-            <input type="text" placeholder="filter by name" #filter >
-            <button class="primary" type="button" (click)="filterResults(filter.value)"></button>
-          </div>
+            <div class="catalog-nav">  
+              <input class="catalogSearchBar" type="text" placeholder="Rechercher" #filter > 
+              <button class="btn btn-warning filterButton" type="button" (click)="filterResults(filter.value)">Rechercher</button>
+              <button class="btn btn-warning sortButton" type="button" (click)="pricefilter = !pricefilter">Trier par prix</button>
+            </div>
+
+            <div class="productlist  ">
+                              <ng-container class="productlist" *ngIf="pricefilter; else pricefilterOff">
+                                <app-products class="product" *ngFor="let product of filteredProductsList | sortProductByPrice2:true " [products]="product"></app-products>
+                              </ng-container>
+                              <ng-template class="productlist" #pricefilterOff>
+                                <app-products class="product" *ngFor="let product of filteredProductsList | sortProductByPrice:true" [products]="product"></app-products>
+                              </ng-template>
+                            </div>
+                          </div>
               </section>
-              <section class="results  ">
-                <app-products *ngFor="let products of filteredProductsList" [products]="products"></app-products>
-              </section>
 
 
 
-        </div>
+        
 
 
         

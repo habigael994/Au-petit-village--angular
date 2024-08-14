@@ -1,0 +1,19 @@
+ filterResults(text: string) {
+
+          if (!text) this.filteredProductsList = this.productsList;
+
+          this.filteredProductsList = this.productsList.filter(
+            products => products?.name.toLowerCase().includes(text.toLowerCase())
+          );
+      }
+
+<input type="text" placeholder="filter by name" #filter >
+
+<div class="results">
+                  <ng-container *ngIf="pricefilterOn; else pricefilterOff">
+                    <app-products *ngFor="let product of filteredProductsList | sortProductByPrice:false" [products]="product"></app-products>
+                  </ng-container>
+                  <ng-template #pricefilterOff>
+                    <app-products *ngFor="let product of filteredProductsList | sortProductByPrice:true" [products]="product"></app-products>
+                  </ng-template>
+                </div>
