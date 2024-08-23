@@ -20,7 +20,7 @@
               </div>
   
               <div class="productlist  ">
-                                <ng-container class="productlist" *ngIf="pricefilter; else pricefilterOff">↩
+                                <ng-container class="productlist" *ngIf="pricefilter; else pricefilterOff">
                                   <app-products class="product" *ngFor="let product of filteredProductsList | sortProductByPrice2:true " [products]="product"></app-products>
                                 </ng-container>
                                 <ng-template class="productlist" #pricefilterOff>
