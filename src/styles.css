@@ -3,9 +3,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 
+@font-face {
+      font-family:Bubbleboddy;
+      src: url(./assets/Bobbleboddy.ttf);
+}
+
+@font-face {
+      font-family:bubbleboddy2 ;
+      src: url(./assets/Bobbleboddy_light.ttf);
+}
+
+
 body {
       background-color: #F9D0A3 ;
       background-image: url(assets/Asterix-Obelix-Normans-screenshot-131190-wallhere.com.jpg);
       background-repeat: no-repeat;
       background-size: cover;
 }
+
+h1 {
+
+      font-family: bubbleboddy;
+
+}
+
+h2 {
+
+      font-family: bubbleboddy;
+
+}
+
+
+h5 {
+
+      font-family: bubbleboddy;
+
+}
+
+a {
+
+      font-family:bubbleboddy2;
+
+}
+
+p {
+
+      font-family: comfortaa;
+
+}
+
+button {
+
+      font-family: comfortaa;
+
+}
+
+span {
+
+      font-family: comfortaa;
+
+}
+
+input {font-family: comfortaa;}
