@@ -6,7 +6,7 @@ import { Products } from '../products' ;
 import { ProductsComponent } from '../products/products.component';
 import { ProductsService } from '../products.service';
 import { SortProductByPrice2Pipe } from '../sort-product-by-price2.pipe';
- 
+
  
  
  

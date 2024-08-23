@@ -1,76 +1,51 @@
-.navbar {
- 
-    background-color:whitesmoke !important;  
-    position: fixed;
-    background-repeat: no-repeat;
-      background-size: cover;
-    width: 100%;
-    z-index: 10;
-  }
-
- 
-
-.navbar-brand {
-
-    color: #151217;
-    font-family: Comfortaa;
-    display: flex;
-     
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top:5px ;
-    padding-bottom:5px ;
-    font-weight:bolder;
-     
-}
-
-.navbar-brand:hover {
-
-    
-    transition: 0.3s;
-    font-weight:bolder;
-    color:  #DA001E ;
-
-}
-
-.brand-title {
-
-    font-size: 15px;
-    padding-top: 15px;
-    padding-left: 10px;
-     
-}
-
-.NavbarLogo {
-
-    border-radius: 25%;
-    
-}
-
- 
-
-.navbar-nav {
-
-            width: 300px;
-            
-}
-
-.nav-link {
-    width: 130px;
-    color: #151217;
-    font-size: 18px;
-    font-family: Comfortaa;
-    border-radius: 0%;
-    padding: 0;
-    font-weight:bolder;
-  
-     
-}
-
-.nav-link:hover {
-     
-    background-color: whitesmoke;
-    color: #DA001E ;
-    font-weight:bolder;
-     
-}
+    .navbar {
+        background-color : whitesmoke !important ;
+        position : fixed;
+        background-repeat : no-repeat;
+        background-size : cover;
+        width : 100%;
+        z-index : 10;
+    }
+    .navbar-brand {
+        color : #151217;
+        font-family : Comfortaa;
+        display : flex;
+        padding-left : 10px;
+        padding-right : 10px;
+        padding-top : 5px;
+        padding-bottom : 5px;
+        font-weight : bolder;
+    }
+    .navbar-brand:hover {
+        transition : 0.3s;
+        font-weight : bolder;
+        color : #DA001E;
+    }
+    .brand-title {
+        font-size : 15px;
+        padding-top : 15px;
+        padding-left : 10px;
+    }
+    .NavbarLogo {
+        border-radius : 25%;
+    }
+    .navbar-nav {
+        width : 300px;
+    }
+    .navl {
+        text-decoration : none;
+    }
+    .nav-link {
+        width : 130px;
+        color : #151217;
+        font-size : 18px;
+        font-family : Comfortaa;
+        border-radius : 0%;
+        padding : 0;
+        font-weight : bolder;
+    }
+    .nav-link:hover {
+        background-color : whitesmoke;
+        color : #DA001E;
+        font-weight : bolder;
+    }

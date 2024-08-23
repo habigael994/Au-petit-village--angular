@@ -1,6 +1,17 @@
-.listing {
+ 
 
-     width: 20%;
-     
-    border-radius: 0%;
-}
+    .listing {
+        width : 20%;
+        border : none;
+        border-radius : 0%;
+    }
+    .listing:hover {
+        box-shadow : 0 5px 15px rgb(0, 0, 0, 0.35);
+        transition : 0.3s;
+    }
+    .Plink {
+        text-decoration : none;
+    }
+    .price:hover {
+        color : #DA001E;
+    }
