@@ -7,7 +7,7 @@
 
         {
             "id":  "1",
-            "name": "xvidvoxudvyxuvihxca",
+            "name": "produit 1",
             "price": 23,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst. ",
@@ -15,7 +15,7 @@
           },
           {
             "id": "2",
-            "name": "bvpcxivoxcvcxuviucvx",
+            "name": "produit 2",
             "price": 3,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst.  ",
@@ -23,7 +23,7 @@
           },
           {
             "id": "3",
-            "name": "cofifoidjvcv",
+            "name": "produit 3",
             "price": 1,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst.  ",
@@ -31,7 +31,7 @@
           },
           {
             "id": "4",
-            "name": "dcccccwwwcs",
+            "name": "produit 4",
             "price": 50,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst. ",
@@ -40,7 +40,7 @@
 
           {
             "id": "5",
-            "name": "abvbvbbvbvbv",
+            "name": "produit 5",
             "price": 23,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst. ",
@@ -48,7 +48,7 @@
           },
           {
             "id": "6",
-            "name": "sfsfsfsfsfb",
+            "name": "produit 6",
             "price": 3,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst. ",
@@ -56,7 +56,7 @@
           },
           {
             "id": "7", 
-            "name": "csfsffsfsf",
+            "name": "produit 7",
             "price": 1,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst. ",
@@ -64,7 +64,7 @@
           },
           {
             "id": "8",
-            "name": "deeeeeeesqffq",
+            "name": "produit 8",
             "price": 50,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst. ",
@@ -72,7 +72,7 @@
           },
           {
             "id": "9",
-            "name": "csfsffgdsgssfsf",
+            "name": "produit 9",
             "price": 1,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst. ",
@@ -80,7 +80,7 @@
           },
           {
             "id": "10",
-            "name": "deeddggeeeeesqffq",
+            "name": "produit 10",
             "price": 50,
             "img": "\\assets\\ASTST01301.jpg",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis lorem vel ante commodo aliquet.\n Cras sit amet luctus urna. In hac habitasse platea dictumst.  .",
