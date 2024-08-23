@@ -1,0 +1,21 @@
+    .content {
+        padding-top : 79px;
+        background-image : url(/src/assets/Asterix-Obelix-Normans-screenshot-131190-wallhere.com.jpg);
+        background-repeat : no-repeat;
+        background-size : cover;
+    }
+    .details-div {
+        background-color : #F9D0A3;
+        width : 85%;
+        margin : auto;
+    }
+    .card-img-top {
+        box-shadow : 0 5px 15px rgb(0, 0, 0, 0.35);
+    }
+    .form-control:hover {
+        box-shadow : 0 5px 15px rgb(0, 0, 0, 0.35);
+    }
+    .btn:hover {
+        color : #DA001E;
+        box-shadow : 0 5px 15px rgb(0, 0, 0, 0.35);
+    }

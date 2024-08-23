@@ -1,23 +1,22 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="nav-container container-fluid">
-       
-      <a class="navbar-brand" href="#">
-      
-        <img src="/assets/Logo_au petit village.jpg" alt="Logo" width="50" height="50"  class="NavbarLogo d-inline-block align-text-top">
-        <p class="brand-title">Au petit village</p>
-        
-      </a>
+  <div class="nav-container container-fluid">
+     
+    <a class="navbar-brand" href="#">
     
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-link-div collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-           
-           <button type="button" class="nav-link btn btn-light">CONTACT</button> 
-          <button type="button" class="nav-link btn btn-light">À PROPOS</button> 
-           
-        </div>
+      <img src="/assets/Logo_au petit village.jpg" alt="Logo" width="50" height="50"  class="NavbarLogo d-inline-block align-text-top">
+      <p class="brand-title">Au petit village</p>
+      
+    </a>
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-link-div collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+
+         <a class="navl" [routerLink]="['/about']"><button type="button" class="nav-link btn btn-light">À PROPOS</button></a> 
+         
       </div>
     </div>
-  </nav>
+  </div>
+</nav>

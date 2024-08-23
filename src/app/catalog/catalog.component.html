@@ -1,34 +1,34 @@
 <div class="catalog">
-
-    <div class="catalog-title">   
-
-            <h2>Découvrez nos produits</h2>
-
-    </div>
-
-    <div class="catalog-container container-fluid ">
-
-        
-
-        <section>
-          <div>
-             
-            <div class="catalog-nav">  
-              <input class="catalogSearchBar" type="text" placeholder="Rechercher" #filter > 
-              <button class="btn btn-warning filterButton" type="button" (click)="filterResults(filter.value)">Rechercher</button>
-              <button class="btn btn-warning sortButton" type="button" (click)="pricefilter = !pricefilter">Trier par prix</button>
-            </div>
-
-            <div class="productlist  ">
-                              <ng-container class="productlist" *ngIf="pricefilter; else pricefilterOff">
-                                <app-products class="product" *ngFor="let product of filteredProductsList | sortProductByPrice2:true " [products]="product"></app-products>
-                              </ng-container>
-                              <ng-template class="productlist" #pricefilterOff>
-                                <app-products class="product" *ngFor="let product of filteredProductsList | sortProductByPrice:true" [products]="product"></app-products>
-                              </ng-template>
+  
+      <div class="catalog-title">   
+  
+              <h2>Découvrez nos produits</h2>
+  
+      </div>
+  
+      <div class="catalog-container container-fluid ">
+  
+          
+  
+          <section>
+            <div>
+               
+              <div class="catalog-nav">  
+                <input class="catalogSearchBar" type="text" placeholder="Rechercher" #filter > 
+                <button class="btn btn-warning filterButton" type="button" (click)="filterResults(filter.value)">Rechercher</button>
+                <button class="btn btn-warning sortButton" type="button" (click)="pricefilter = !pricefilter">Trier par prix</button>
+              </div>
+  
+              <div class="productlist  ">
+                                <ng-container class="productlist" *ngIf="pricefilter; else pricefilterOff">↩
+                                  <app-products class="product" *ngFor="let product of filteredProductsList | sortProductByPrice2:true " [products]="product"></app-products>
+                                </ng-container>
+                                <ng-template class="productlist" #pricefilterOff>
+                                  <app-products class="product" *ngFor="let product of filteredProductsList | sortProductByPrice:true" [products]="product"></app-products>
+                                </ng-template>
+                              </div>
                             </div>
-                          </div>
-              </section>
+                </section>
 
 
 
